@@ -1,8 +1,10 @@
 # Kibana Dendrogram Visualization to show ... dendrograms :) - Plugin
 
-This is a new custom visualization (for Kibana version 4.5.1) that allows
+This is a new custom visualization (for Kibana version 4.5.1, 5.5 and 6.2.2) that allows
 displaying a dendrogram chart to show and index or classes, or some other hierarchical
 structure.
+
+it is a fork from JuanCarniglia's dendrogram_vis
 
 If you really liked this and feel like making a donation : <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=juan.carniglia@gmail.com&lc=AR&item_name=JuanCarniglia&item_number=1009&currency_code=USD&bn=PP-DonationsBF:btn_donate_LG.gif:NonHosted">
 <img src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" alt="Contribute!" />
@@ -79,3 +81,4 @@ As long as you don't actually USE xmlhttprequest, from the visualization, it sho
 - Add filtering from the nodes (clicking a node adds/remove filters)
 - Zooming and Panning
 - Colors (or icons) change based on data
+

@@ -1,9 +1,9 @@
 {
     "mappings": {
-      "data": {
+      "dendrogram_data": {
         "properties": {
           "id": {
-            "type": "keyword"
+            "type": "string"
           },
           "value": {
             "type": "long"

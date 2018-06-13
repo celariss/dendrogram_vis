@@ -1,13 +1,10 @@
 #!/usr/bin/python
-# NOTE : make sure to install the elasticsearch python module with same version than your current elastic search :
-#   - get current version isntalled : pip freeze | grep elasticsearch
-#   - install version : pip install elasticsearch==6.2.0
 
 def printProgressBar (iteration, total, prefix = '', suffix = '', decimals = 1, length = 100, fill = '#'):
     percent = ("{0:." + str(decimals) + "f}").format(100 * (iteration / float(total)))
     filledLength = int(length * iteration // total)
     bar = fill * filledLength + '-' * (length - filledLength)
-    print('\r%s |%s| %s%% %s' % (prefix, bar, percent, suffix), ' (' + str(iteration) + ' of ' + str(total) + ')\r')
+    print('\r%s |%s| %s%% %s' % (prefix, bar, percent, suffix), end = ' (' + str(iteration) + ' of ' + str(total) + ')\r')
     # Print New Line on Complete
     if iteration == total:
         print()
